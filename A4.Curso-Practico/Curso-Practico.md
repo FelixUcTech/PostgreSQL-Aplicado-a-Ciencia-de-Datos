@@ -221,7 +221,7 @@ Una forma de entender una window funtion es una referenciación de un caso parti
 
 La clase se centró en las **particiones** en PostgreSQL, una técnica avanzada de diseño de bases de datos que permite dividir una tabla en segmentos lógicos. Esta estrategia mejora la eficiencia en las consultas y es especialmente útil para manejar grandes volúmenes de datos.
 
-## ¿Qué son las particiones?
+### ¿Qué son las particiones?
 
 Las particiones permiten dividir una tabla grande en varias tablas más pequeñas, conocidas como **particiones**. Cada partición puede ser tratada como una tabla independiente, lo que facilita la gestión y el acceso a los datos.
 
@@ -251,7 +251,7 @@ A pesar de sus beneficios, las particiones no son adecuadas para todas las tabla
 
 - **Decisiones de particionamiento**: Es esencial evaluar el caso de uso específico y las consultas previstas para decidir si la implementación de particiones es ventajosa. Un mal diseño de particiones puede llevar a un rendimiento deficiente en lugar de mejorar la eficiencia.
 
-## Ejemplo de partición
+### Ejemplo de partición
 
 ```sql
 CREATE TABLE ventas (
